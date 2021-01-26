@@ -37,8 +37,21 @@ conn.commit()
 
 # ------------------- Fetch and Query -------------------------
 c.execute("SELECT * FROM customers")
-print(c.fetchall())
+items = c.fetchall()
 
+# print an item in one line
+for item in items:
+    print(item)
+
+# print only first element in an item
+for item in items:
+    print(item[0])
+
+# ---------------- Primary key -----------------
+    
+
+
+# ------------------- Close connection -------------------------
 
 # Close our connection
 conn.close()
