@@ -10,3 +10,4 @@ File: Data_pandas.py
 •	Many conditions
 5.	Adding a column based on column value
 6.	Correct a column based on column value
+7. Grouping data
