@@ -1,6 +1,7 @@
 # Data-Analysis-Notebook
 
 Data Management with Pandas
+File: Data_pandas.py
 1.	Load Data set
 2.	Display first lines
 3.	Display columns / columns to drop
